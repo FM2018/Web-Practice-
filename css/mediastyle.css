@@ -1,0 +1,70 @@
+/*导航栏下拉菜单*/
+@media screen and (max-width: 980px) {
+	.nav ul {
+		width: 95px;
+		overflow: hidden;
+	}
+	.nav ul li {
+		width: 100%;
+		display: none;
+	}
+	.nav ul .before {
+		display: inline-block;
+		border-radius: 2px;
+		background-color: #f0bf00;
+		font-size: 0;
+		margin-bottom: 10px;
+		float: right;
+		width: 38px;
+		height: 30px;
+		cursor: pointer;
+		background-image: url(../images/hanbergeicon.png);
+	}
+	.nav ul:hover li{
+		display: block;
+	}
+	.header .nav ul .before:hover{
+		background-color: #333;
+	}
+/*以上是导航栏的自适应*/
+}
+@media screen and (max-width: 767px) {
+	.box03a .sbox {
+		width: 100%;
+	}
+	.box03 .box03a .sbox:nth-child(3n + 1) {
+		margin: 0 0 40px 0;
+	}
+	.box04a .sbox04 {
+		width: 100%;
+		margin: 0 0 3px 0;
+	}
+	.box04 .box04a .sbox04:nth-of-type(3) {
+		margin: 0 0 3px 0;
+	}
+	.box05a h1 {
+		width: 80%;
+	}
+	.box06a .sbox06 {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.box06 .sbox06:nth-child(4) {
+		margin: 0 0 20px 0;
+	}
+	.imgbox07 {
+		width: 30%;
+		display: block;
+		float: none;
+		margin: auto;
+	}
+	.imgbox07:last-child {
+		margin: auto;
+	}
+	.inputbox input[type=text] {
+		width: 100%;
+	}
+	.inputbox input[type=submit] {
+		width: 25%;
+	}
+}
